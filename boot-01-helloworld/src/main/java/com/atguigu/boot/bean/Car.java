@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @ToString
 @Data
-@Component
+// @Component
 @ConfigurationProperties(prefix = "mycar")
 public class Car {
 
