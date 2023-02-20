@@ -45,8 +45,8 @@ class Boot05WebAdminApplicationTests {
 
 //        jdbcTemplate.queryForObject("select * from account_tbl")
 //        jdbcTemplate.queryForList("select * from account_tbl",)
-        Long aLong = jdbcTemplate.queryForObject("select count(*) from account_tbl", Long.class);
-        log.info("记录总数：{}",aLong);
+//         Long aLong = jdbcTemplate.queryForObject("select count(*) from account_tbl", Long.class);
+//         log.info("记录总数：{}",aLong);
 
         log.info("数据源类型：{}",dataSource.getClass());
 

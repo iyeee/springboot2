@@ -22,7 +22,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
  * @EnableWebMvc:全面接管
  *      1、静态资源？视图解析器？欢迎页.....全部失效
  */
-//@EnableWebMvc
+// @EnableWebMvc
 @Configuration
 public class AdminWebConfig implements WebMvcConfigurer{
 

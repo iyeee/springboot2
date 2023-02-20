@@ -4,6 +4,7 @@ spring:
       filter:
 #        开启Rest风格  postman不需要 表单只有get和post才需要
         enabled: true
+#        开启请求参数内容协商模式 http://localhost:8080/params?format=xml
     contentnegotiation:
       favor-parameter: true
     mvc:

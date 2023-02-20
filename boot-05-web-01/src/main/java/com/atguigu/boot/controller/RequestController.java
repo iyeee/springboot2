@@ -26,6 +26,7 @@ public class RequestController {
     }
 
 
+    // map，model都是可以给request域中放数据
     @GetMapping("/params")
     public String testParam(Map<String,Object> map,
                             Model model,

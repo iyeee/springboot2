@@ -7,7 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//@WebServlet(urlPatterns = "/my")
+
+// 不经过spring的拦截器
+// @WebServlet(urlPatterns = "/my")
 public class MyServlet extends HttpServlet {
 
     @Override

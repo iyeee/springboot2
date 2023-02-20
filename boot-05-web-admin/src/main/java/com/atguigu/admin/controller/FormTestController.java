@@ -43,14 +43,14 @@ public class FormTestController {
         if(!headerImg.isEmpty()){
             //保存到文件服务器，OSS服务器
             String originalFilename = headerImg.getOriginalFilename();
-            headerImg.transferTo(new File("H:\\cache\\"+originalFilename));
+            headerImg.transferTo(new File("E:\\cache\\"+originalFilename));
         }
 
         if(photos.length > 0){
             for (MultipartFile photo : photos) {
                 if(!photo.isEmpty()){
                     String originalFilename = photo.getOriginalFilename();
-                    photo.transferTo(new File("H:\\cache\\"+originalFilename));
+                    photo.transferTo(new File("E:\\cache\\"+originalFilename));
                 }
             }
         }

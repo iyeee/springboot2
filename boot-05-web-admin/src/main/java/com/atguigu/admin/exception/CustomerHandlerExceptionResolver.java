@@ -19,7 +19,7 @@ public class CustomerHandlerExceptionResolver implements HandlerExceptionResolve
                                          Object handler, Exception ex) {
 
         try {
-            response.sendError(511,"我喜欢的错误");
+            response.sendError(511,"我喜欢的1错误");
         } catch (IOException e) {
             e.printStackTrace();
         }

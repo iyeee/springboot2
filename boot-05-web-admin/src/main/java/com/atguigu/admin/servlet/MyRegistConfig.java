@@ -12,6 +12,7 @@ import java.util.Arrays;
 /**
  * 1、MyServlet --> /my
  * 2、DispatcherServlet --> /
+ * 匹配到多个路径时最长匹配原则 因此/my不经过拦截器
  */
 // (proxyBeanMethods = true)：保证依赖的组件始终是单实例的
 @Configuration(proxyBeanMethods = true)
