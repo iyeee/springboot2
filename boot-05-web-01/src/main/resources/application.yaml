@@ -2,18 +2,19 @@ spring:
   mvc:
     hiddenmethod:
       filter:
+#        开启Rest风格  postman不需要 表单只有get和post才需要
         enabled: true
     contentnegotiation:
       favor-parameter: true
-  #  mvc:
-#    static-path-pattern: /res/**
+    mvc:
+#     static-path-pattern: /res/**
 
   resources:
     static-locations: [classpath:/haha/]
-    add-mappings: true
+#    add-mappings: true  #默认为true
     cache:
       period: 11000
-server:
-  servlet:
-    context-path: /world
+#server:
+#  servlet:
+#    context-path: /world
 

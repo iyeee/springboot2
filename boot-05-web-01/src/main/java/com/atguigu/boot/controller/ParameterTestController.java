@@ -35,14 +35,17 @@ public class ParameterTestController {
                                      @RequestParam("inters") List<String> inters,
                                      @RequestParam Map<String,String> params,
                                      @CookieValue("_ga") String _ga,
-                                     @CookieValue("_ga") Cookie cookie){
+                                     @CookieValue("_ga") Cookie cookie
+    ){
         Map<String,Object> map = new HashMap<>();
 
-//        map.put("id",id);
-//        map.put("name",name);
-//        map.put("pv",pv);
-//        map.put("userAgent",userAgent);
-//        map.put("headers",header);
+       map.put("id",id);
+       map.put("name",name);
+       map.put("pv",pv);
+
+
+       map.put("userAgent",userAgent);
+       map.put("headers",header);
         map.put("age",age);
         map.put("inters",inters);
         map.put("params",params);

@@ -89,7 +89,7 @@ public class MainApplication {
 
         boolean haha = run.containsBean("haha");
         boolean hehe = run.containsBean("hehe");
-        System.out.println("haha："+haha);
+        System.out.println("hah："+haha);
         System.out.println("hehe："+hehe);
 
     }
